@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOTS Communications - Giải pháp Truyền thông & Quảng cáo</title>
+    <meta
+      name="description"
+      content="DOTS Communications - Công ty truyền thông & quảng cáo cung cấp giải pháp Marketing tổng thể, thiết kế thương hiệu, digital & sản xuất nội dung."
+    />
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: "#eff6ff",
+                100: "#dbeafe",
+                200: "#bfdbfe",
+                300: "#93c5fd",
+                400: "#60a5fa",
+                500: "#3b82f6",
+              },
+              dark: "#0b1120",
+            },
+            fontFamily: {
+              sans: ["system-ui", "ui-sans-serif", "Segoe UI", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body
+    class="font-sans text-slate-800 bg-gradient-to-b from-primary-50 via-white to-primary-100"
+  >
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-30 bg-white/80 backdrop-blur shadow-sm border-b border-primary-100"
+    >
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+          <!-- Logo -->
+          <a href="#top" class="flex items-center gap-2">
+            <div
+              class="h-9 w-9 rounded-xl bg-primary-100 flex items-center justify-center border border-primary-200"
+            >
+              <span class="text-primary-500 font-semibold text-lg">D</span>
+            </div>
+            <div class="flex flex-col leading-tight">
+              <span class="font-semibold text-slate-900 text-sm sm:text-base">
+                DOTS Communications
+              </span>
+              <span class="text-[11px] sm:text-xs text-slate-500">
+                Truyền thông & Quảng cáo
+              </span>
+            </div>
+          </a>
+
+          <!-- Nav -->
+          <nav class="hidden md:flex items-center gap-8 text-sm">
+            <a href="#about" class="hover:text-primary-500 transition-colors"
+              >Giới thiệu</a
+            >
+            <a href="#services" class="hover:text-primary-500 transition-colors"
+              >Dịch vụ</a
+            >
+            <a href="#projects" class="hover:text-primary-500 transition-colors"
+              >Dự án</a
+            >
+            <a
+              href="#testimonials"
+              class="hover:text-primary-500 transition-colors"
+              >Khách hàng</a
+            >
+            <a href="#contact" class="hover:text-primary-500 transition-colors"
+              >Liên hệ</a
+            >
+          </nav>
+
+          <!-- CTA -->
+          <div class="flex items-center gap-3">
+            <button
+              class="hidden sm:inline-flex text-sm px-3 py-1.5 rounded-full border border-primary-200 text-primary-700 hover:bg-primary-50 transition-colors"
+            >
+              +84564010854
+            </button>
+            <a
+              href="#contact"
+              class="inline-flex items-center gap-2 text-sm px-4 py-2 rounded-full bg-primary-500 text-white shadow-md shadow-primary-200 hover:bg-primary-400 transition-colors"
+            >
+              Nhận tư vấn
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="pt-10 sm:pt-16 lg:pt-20 pb-12 sm:pb-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+            <!-- Left -->
+            <div>
+              <span
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-100 text-primary-700 text-xs font-medium border border-primary-200"
+              >
+                <span
+                  class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"
+                ></span>
+                Đối tác truyền thông cho doanh nghiệp hiện đại
+              </span>
+
+              <h1
+                class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900"
+              >
+                Xây dựng thương hiệu
+                <span class="text-primary-500">chuyên nghiệp</span> trên mọi
+                nền tảng số.
+              </h1>
+
+              <p class="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">
+                DOTS Communications cung cấp giải pháp Marketing tổng thể,
+                từ chiến lược, sáng tạo nội dung, quản lý kênh số đến sản xuất
+                & triển khai chiến dịch, giúp doanh nghiệp của bạn nổi bật và
+                tăng trưởng bền vững.
+              </p>
+
+              <div class="mt-6 flex flex-wrap items-center gap-4">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-primary-500 text-white text-sm font-medium shadow-lg shadow-primary-200 hover:bg-primary-400 transition-colors"
+                >
+                  Đặt lịch tư vấn miễn phí
+                </a>
+                <a
+                  href="#services"
+                  class="inline-flex items-center gap-2 text-sm text-primary-600 hover:text-primary-500"
+                >
+                  Xem dịch vụ
+                  <span aria-hidden="true">↓</span>
+                </a>
+              </div>
+
+              <div
+                class="mt-8 grid grid-cols-3 gap-4 max-w-md text-xs sm:text-sm"
+              >
+                <div
+                  class="p-3 rounded-2xl bg-white/80 border border-primary-100 shadow-sm"
+                >
+                  <p class="text-lg sm:text-2xl font-semibold text-primary-500">
+                    50+
+                  </p>
+                  <p class="text-slate-500">Dự án truyền thông mỗi năm</p>
+                </div>
+                <div
+                  class="p-3 rounded-2xl bg-white/80 border border-primary-100 shadow-sm"
+                >
+                  <p class="text-lg sm:text-2xl font-semibold text-primary-500">
+                    4.9/5
+                  </p>
+                  <p class="text-slate-500">Mức độ hài lòng của khách hàng</p>
+                </div>
+                <div
+                  class="p-3 rounded-2xl bg-white/80 border border-primary-100 shadow-sm"
+                >
+                  <p class="text-lg sm:text-2xl font-semibold text-primary-500">
+                    10+
+                  </p>
+                  <p class="text-slate-500">Ngành hàng đã triển khai</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right -->
+            <div class="relative">
+              <div
+                class="absolute -inset-6 bg-primary-100/40 blur-3xl -z-10 rounded-3xl"
+              ></div>
+              <div
+                class="relative rounded-3xl bg-white/90 border border-primary-100 shadow-xl overflow-hidden"
+              >
+                <div class="p-5 sm:p-6">
+                  <div class="flex justify-between items-center mb-4">
+                    <div>
+                      <p class="text-xs uppercase tracking-wide text-slate-400">
+                        Bảng điều khiển chiến dịch
+                      </p>
+                      <p class="text-sm font-semibold text-slate-900">
+                        Hiệu quả theo thời gian thực
+                      </p>
+                    </div>
+                    <span
+                      class="px-3 py-1 text-[11px] rounded-full bg-emerald-50 text-emerald-600 border border-emerald-100"
+                    >
+                      Đang chạy 12 chiến dịch
+                    </span>
+                  </div>
+
+                  <div class="grid grid-cols-3 gap-4 mb-6 text-xs">
+                    <div
+                      class="p-3 rounded-2xl bg-primary-50/80 border border-primary-100"
+                    >
+                      <p class="text-[11px] text-slate-500 mb-1">
+                        Tăng trưởng lượt tiếp cận
+                      </p>
+                      <p class="text-lg font-semibold text-primary-600">
+                        +185%
+                      </p>
+                      <span
+                        class="inline-flex items-center gap-1 text-[11px] text-emerald-600"
+                      >
+                        <span>▲</span> 30 ngày gần đây
+                      </span>
+                    </div>
+                    <div
+                      class="p-3 rounded-2xl bg-slate-50 border border-slate-100"
+                    >
+                      <p class="text-[11px] text-slate-500 mb-1">
+                        Tương tác trung bình
+                      </p>
+                      <p class="text-lg font-semibold text-slate-900">4.3%</p>
+                      <span class="text-[11px] text-slate-500">
+                        Trên đa nền tảng
+                      </span>
+                    </div>
+                    <div
+                      class="p-3 rounded-2xl bg-slate-900 text-slate-50 border border-slate-800"
+                    >
+                      <p class="text-[11px] text-slate-400 mb-1">
+                        Chi phí / kết quả
+                      </p>
+                      <p class="text-lg font-semibold text-white">
+                        -32%
+                      </p>
+                      <span class="text-[11px] text-emerald-300">
+                        Tối ưu ngân sách
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Timeline -->
+                  <div class="space-y-3 mb-5">
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center gap-3">
+                        <span
+                          class="h-7 w-7 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-xs"
+                          >1</span
+                        >
+                        <div>
+                          <p class="text-xs font-medium text-slate-800">
+                            Phân tích thương hiệu
+                          </p>
+                          <p class="text-[11px] text-slate-500">
+                            Nghiên cứu thị trường & chân dung khách hàng
+                          </p>
+                        </div>
+                      </div>
+                      <span class="text-[11px] text-emerald-600">Hoàn tất</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center gap-3">
+                        <span
+                          class="h-7 w-7 rounded-full bg-primary-500 text-white flex items-center justify-center text-xs"
+                          >2</span
+                        >
+                        <div>
+                          <p class="text-xs font-medium text-slate-800">
+                            Lên chiến lược & nội dung
+                          </p>
+                          <p class="text-[11px] text-slate-500">
+                            Xây dựng thông điệp & kế hoạch triển khai
+                          </p>
+                        </div>
+                      </div>
+                      <span
+                        class="text-[11px] px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-100"
+                        >Đang thực hiện</span
+                      >
+                    </div>
+                    <div class="flex items-center justify-between opacity-70">
+                      <div class="flex items-center gap-3">
+                        <span
+                          class="h-7 w-7 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 text-xs"
+                          >3</span
+                        >
+                        <div>
+                          <p class="text-xs font-medium text-slate-800">
+                            Triển khai & tối ưu
+                          </p>
+                          <p class="text-[11px] text-slate-500">
+                            Đo lường kết quả theo thời gian thực
+                          </p>
+                        </div>
+                      </div>
+                      <span class="text-[11px] text-slate-400">Sắp bắt đầu</span>
+                    </div>
+                  </div>
+
+                  <!-- Mini stats -->
+                  <div
+                    class="flex items-center justify-between border-t border-slate-100 pt-3 text-[11px]"
+                  >
+                    <div class="flex -space-x-2">
+                      <span
+                        class="h-7 w-7 rounded-full bg-primary-200 border-2 border-white flex items-center justify-center text-[11px] font-semibold text-primary-800"
+                        >DC</span
+                      >
+                      <span
+                        class="h-7 w-7 rounded-full bg-emerald-100 border-2 border-white flex items-center justify-center text-[11px] font-semibold text-emerald-800"
+                        >KH</span
+                      >
+                    </div>
+                    <p class="text-slate-500">
+                      Đồng hành như một
+                      <span class="font-medium text-slate-700"
+                        >phòng Marketing in-house</span
+                      >
+                      cho doanh nghiệp của bạn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="py-12 sm:py-16 bg-white/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-[1.2fr,1fr] gap-10 lg:gap-14 items-start">
+            <div>
+              <h2
+                class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-4"
+              >
+                Về <span class="text-primary-500">DOTS Communications</span>
+              </h2>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                Chúng tôi là đội ngũ những người trẻ sáng tạo, nhiều kinh nghiệm
+                trong lĩnh vực truyền thông và quảng cáo, với mục tiêu kết nối
+                thương hiệu của bạn tới đúng khách hàng mục tiêu bằng nội dung
+                chất lượng và trải nghiệm nhất quán trên mọi điểm chạm.
+              </p>
+              <p
+                class="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed"
+              >
+                Từ doanh nghiệp vừa và nhỏ đến thương hiệu lớn, chúng tôi luôn
+                ưu tiên việc hiểu sâu ngành hàng, khách hàng và mục tiêu kinh
+                doanh để đề xuất chiến lược phù hợp, linh hoạt theo từng giai
+                đoạn phát triển.
+              </p>
+
+              <div class="mt-6 grid sm:grid-cols-3 gap-4 text-xs sm:text-sm">
+                <div class="flex gap-3">
+                  <span
+                    class="mt-1 h-7 w-7 rounded-xl bg-primary-50 text-primary-600 flex items-center justify-center"
+                  >
+                    ✓
+                  </span>
+                  <div>
+                    <p class="font-medium text-slate-900">
+                      Tư vấn chiến lược bài bản
+                    </p>
+                    <p class="text-slate-500">
+                      Nền tảng dữ liệu & insight khách hàng rõ ràng.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <span
+                    class="mt-1 h-7 w-7 rounded-xl bg-primary-50 text-primary-600 flex items-center justify-center"
+                  >
+                    ✓
+                  </span>
+                  <div>
+                    <p class="font-medium text-slate-900">
+                      Triển khai end-to-end
+                    </p>
+                    <p class="text-slate-500">
+                      Đồng hành từ ý tưởng đến tối ưu chiến dịch.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <span
+                    class="mt-1 h-7 w-7 rounded-xl bg-primary-50 text-primary-600 flex items-center justify-center"
+                  >
+                    ✓
+                  </span>
+                  <div>
+                    <p class="font-medium text-slate-900">
+                      Linh hoạt & minh bạch
+                    </p>
+                    <p class="text-slate-500">
+                      Báo cáo chi tiết, cam kết rõ ràng về KPI.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="rounded-3xl border border-primary-100 bg-gradient-to-br from-primary-50 to-white shadow-md p-5 sm:p-6"
+            >
+              <p
+                class="text-xs font-semibold text-primary-600 tracking-wide uppercase mb-2"
+              >
+                Thông tin nhanh
+              </p>
+              <div class="space-y-3 text-sm">
+                <div class="flex justify-between py-2 border-b border-slate-100">
+                  <span class="text-slate-500">Lĩnh vực</span>
+                  <span class="font-medium text-slate-800 text-right">
+                    Truyền thông, quảng cáo & digital marketing
+                  </span>
+                </div>
+                <div class="flex justify-between py-2 border-b border-slate-100">
+                  <span class="text-slate-500">Địa chỉ</span>
+                  <span class="font-medium text-slate-800 text-right">
+                    Long Biên, Hà Nội, Việt Nam
+                  </span>
+                </div>
+                <div class="flex justify-between py-2 border-b border-slate-100">
+                  <span class="text-slate-500">Vốn điều lệ</span>
+                  <span class="font-medium text-slate-800 text-right">
+                    2.000.000.000 VNĐ
+                  </span>
+                </div>
+                <div class="flex justify-between py-2">
+                  <span class="text-slate-500">Email</span>
+                  <a
+                    href="mailto:kimtrihuu26963@gmail.com"
+                    class="font-medium text-primary-600 hover:text-primary-500"
+                  >
+                    kimtrihuu26963@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="py-12 sm:py-16 bg-primary-50/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+            <div>
+              <h2
+                class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2"
+              >
+                Dịch vụ <span class="text-primary-500">cốt lõi</span>
+              </h2>
+              <p class="text-slate-600 text-sm sm:text-base max-w-xl">
+                Chúng tôi thiết kế giải pháp trọn gói, linh hoạt theo mục tiêu
+                và ngân sách của từng doanh nghiệp.
+              </p>
+            </div>
+            <a
+              href="#contact"
+              class="inline-flex items-center gap-2 text-xs sm:text-sm px-4 py-2 rounded-full border border-primary-200 text-primary-700 hover:bg-primary-100 transition-colors bg-white/60"
+            >
+              Nhận proposal chi tiết
+            </a>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6">
+            <!-- Service card -->
+            <div
+              class="group rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <div
+                class="h-10 w-10 rounded-2xl bg-primary-100 text-primary-600 flex items-center justify-center mb-4 group-hover:bg-primary-500 group-hover:text-white transition-colors"
+              >
+                💡
+              </div>
+              <h3 class="font-semibold text-slate-900 mb-2 text-sm sm:text-base">
+                Chiến lược thương hiệu & truyền thông
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-600 mb-4 flex-1">
+                Xây dựng định vị, thông điệp chính, hệ thống nhận diện và kế
+                hoạch truyền thông tích hợp cho thương hiệu.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1">
+                <li>• Brand audit & brand positioning</li>
+                <li>• Kế hoạch truyền thông 6–12 tháng</li>
+                <li>• Định hướng nội dung & kênh truyền thông</li>
+              </ul>
+            </div>
+
+            <div
+              class="group rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <div
+                class="h-10 w-10 rounded-2xl bg-primary-100 text-primary-600 flex items-center justify-center mb-4 group-hover:bg-primary-500 group-hover:text-white transition-colors"
+              >
+                📱
+              </div>
+              <h3 class="font-semibold text-slate-900 mb-2 text-sm sm:text-base">
+                Digital marketing & quản lý kênh số
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-600 mb-4 flex-1">
+                Vận hành & tối ưu các kênh Facebook, TikTok, YouTube, Website
+                với nội dung, quảng cáo và báo cáo định kỳ.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1">
+                <li>• Content plan & sản xuất nội dung</li>
+                <li>• Chạy quảng cáo đa nền tảng</li>
+                <li>• Báo cáo & tối ưu theo KPI</li>
+              </ul>
+            </div>
+
+            <div
+              class="group rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <div
+                class="h-10 w-10 rounded-2xl bg-primary-100 text-primary-600 flex items-center justify-center mb-4 group-hover:bg-primary-500 group-hover:text-white transition-colors"
+              >
+                🎬
+              </div>
+              <h3 class="font-semibold text-slate-900 mb-2 text-sm sm:text-base">
+                Sản xuất nội dung sáng tạo
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-600 mb-4 flex-1">
+                Từ ảnh, video, TVC, tới ấn phẩm thiết kế online/offline, đảm bảo
+                đúng tinh thần thương hiệu và mục tiêu chiến dịch.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1">
+                <li>• Chụp hình, quay dựng, livestream</li>
+                <li>• Thiết kế social post, brochure, POSM</li>
+                <li>• TVC, viral clip & video branding</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="py-12 sm:py-16 bg-white/90">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+            <div>
+              <h2
+                class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2"
+              >
+                Một vài <span class="text-primary-500">dự án tiêu biểu</span>
+              </h2>
+              <p class="text-slate-600 text-sm sm:text-base max-w-xl">
+                Mỗi chiến dịch là một câu chuyện hợp tác chặt chẽ giữa DOTS và
+                doanh nghiệp.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6 text-xs sm:text-sm">
+            <article
+              class="rounded-3xl border border-slate-100 bg-slate-50/70 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">
+                F&B
+              </p>
+              <h3
+                class="font-semibold text-slate-900 mb-2 text-sm sm:text-base"
+              >
+                Ra mắt thương hiệu cà phê chuỗi mới tại Hà Nội
+              </h3>
+              <p class="text-slate-600 mb-3 flex-1">
+                Xây dựng brand guideline, triển khai kênh social, KOLs &
+                quảng cáo khai trương.
+              </p>
+              <p class="text-xs text-slate-500">
+                Kết quả: tăng
+                <span class="font-semibold text-slate-800">320%</span> lượt ghé
+                cửa hàng trong 2 tháng đầu.
+              </p>
+            </article>
+            <article
+              class="rounded-3xl border border-slate-100 bg-slate-50/70 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">
+                Bất động sản
+              </p>
+              <h3
+                class="font-semibold text-slate-900 mb-2 text-sm sm:text-base"
+              >
+                Chiến dịch digital cho dự án căn hộ cao cấp
+              </h3>
+              <p class="text-slate-600 mb-3 flex-1">
+                Tập trung lead generation qua Facebook, Google và landing page
+                tối ưu chuyển đổi.
+              </p>
+              <p class="text-xs text-slate-500">
+                Kết quả: cost per lead giảm
+                <span class="font-semibold text-slate-800">35%</span>,
+                tỉ lệ chốt lịch xem nhà tăng <span class="font-semibold">22%</span>.
+              </p>
+            </article>
+            <article
+              class="rounded-3xl border border-slate-100 bg-slate-50/70 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">
+                Giáo dục
+              </p>
+              <h3
+                class="font-semibold text-slate-900 mb-2 text-sm sm:text-base"
+              >
+                Xây dựng kênh TikTok cho trung tâm ngoại ngữ
+              </h3>
+              <p class="text-slate-600 mb-3 flex-1">
+                Sản xuất nội dung ngắn, series học nhanh, kết hợp mini game &
+                livestream tư vấn.
+              </p>
+              <p class="text-xs text-slate-500">
+                Kết quả:
+                <span class="font-semibold text-slate-800">150K+</span> followers
+                sau 6 tháng, doanh thu khoá học tăng
+                <span class="font-semibold">40%</span>.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" class="py-12 sm:py-16 bg-primary-50/70">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-8">
+            <h2
+              class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2"
+            >
+              Khách hàng <span class="text-primary-500">nói gì</span> về chúng
+              tôi
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+              Sự hài lòng và hiệu quả kinh doanh của đối tác là thước đo lớn
+              nhất cho chất lượng dịch vụ.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6 text-xs sm:text-sm">
+            <figure
+              class="rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-slate-600 mb-4 flex-1">
+                “DOTS không chỉ làm nội dung đẹp mà còn hiểu rất rõ mục tiêu
+                kinh doanh, luôn chủ động đề xuất các hoạt động tối ưu ngân
+                sách và kết quả.”
+              </p>
+              <figcaption>
+                <p class="font-semibold text-slate-900">Giám đốc Marketing</p>
+                <p class="text-slate-500 text-xs">Chuỗi F&B tại Hà Nội</p>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-slate-600 mb-4 flex-1">
+                “Đội ngũ hỗ trợ rất nhanh và linh hoạt, luôn update báo cáo rõ
+                ràng. Chúng tôi coi DOTS như một phòng marketing nội bộ.”
+              </p>
+              <figcaption>
+                <p class="font-semibold text-slate-900">Tổng giám đốc</p>
+                <p class="text-slate-500 text-xs">Doanh nghiệp BĐS</p>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-3xl bg-white shadow-sm border border-primary-100/80 p-5 sm:p-6 flex flex-col"
+            >
+              <p class="text-slate-600 mb-4 flex-1">
+                “Nhờ chiến lược nội dung rõ ràng và triển khai đồng bộ, thương
+                hiệu của chúng tôi được nhận diện tốt hơn rất nhiều trên mạng
+                xã hội.”
+              </p>
+              <figcaption>
+                <p class="font-semibold text-slate-900">
+                  Founder trung tâm đào tạo
+                </p>
+                <p class="text-slate-500 text-xs">Ngành giáo dục</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-12 sm:py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+            <div>
+              <h2
+                class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2"
+              >
+                Chia sẻ mục tiêu, chúng tôi sẽ
+                <span class="text-primary-500">đề xuất giải pháp</span>
+              </h2>
+              <p class="text-slate-600 text-sm sm:text-base mb-4">
+                Điền thông tin bên cạnh, đội ngũ DOTS sẽ liên hệ trong vòng
+                24 giờ để tư vấn chi tiết và gửi proposal phù hợp.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li>• Tư vấn 1-1 cùng chuyên gia chiến lược.</li>
+                <li>
+                  • Báo giá minh bạch, linh hoạt theo ngân sách & mục tiêu.
+                </li>
+                <li>• Miễn phí đề xuất khung chiến lược tổng quan.</li>
+              </ul>
+
+              <div
+                class="mt-6 rounded-2xl bg-primary-50 border border-primary-100 p-4 text-xs sm:text-sm"
+              >
+                <p class="font-medium text-primary-700">
+                  Hotline / Zalo: <span class="font-semibold">+84564010854</span>
+                </p>
+                <p class="text-slate-600">
+                  Email:
+                  <a
+                    href="mailto:kimtrihuu26963@gmail.com"
+                    class="text-primary-600 hover:text-primary-500"
+                    >kimtrihuu26963@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div
+              class="rounded-3xl bg-slate-50 border border-slate-100 shadow-sm p-5 sm:p-6"
+            >
+              <form
+                class="space-y-4 text-sm"
+                onsubmit="event.preventDefault(); alert('Cảm ơn bạn! Chúng tôi sẽ liên hệ trong thời gian sớm nhất.');"
+              >
+                <div>
+                  <label
+                    for="name"
+                    class="block text-xs font-medium text-slate-700 mb-1"
+                    >Họ và tên</label
+                  >
+                  <input
+                    id="name"
+                    type="text"
+                    required
+                    class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow"
+                    placeholder="Nguyễn Văn A"
+                  />
+                </div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label
+                      for="email"
+                      class="block text-xs font-medium text-slate-700 mb-1"
+                      >Email</label
+                    >
+                    <input
+                      id="email"
+                      type="email"
+                      required
+                      class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow"
+                      placeholder="email@congty.com"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="phone"
+                      class="block text-xs font-medium text-slate-700 mb-1"
+                      >Số điện thoại</label
+                    >
+                    <input
+                      id="phone"
+                      type="tel"
+                      required
+                      class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow"
+                      placeholder="+84564010854"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label
+                    for="company"
+                    class="block text-xs font-medium text-slate-700 mb-1"
+                    >Tên doanh nghiệp</label
+                  >
+                  <input
+                    id="company"
+                    type="text"
+                    class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow"
+                    placeholder="Công ty TNHH ..."
+                  />
+                </div>
+                <div>
+                  <label
+                    for="goal"
+                    class="block text-xs font-medium text-slate-700 mb-1"
+                    >Mục tiêu chính</label
+                  >
+                  <select
+                    id="goal"
+                    class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow"
+                  >
+                    <option value="">Chọn mục tiêu</option>
+                    <option>Tăng nhận diện thương hiệu</option>
+                    <option>Tăng doanh số bán hàng</option>
+                    <option>Ra mắt sản phẩm/dịch vụ mới</option>
+                    <option>Xây dựng kênh social từ đầu</option>
+                    <option>Khác (ghi rõ trong nội dung)</option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    for="message"
+                    class="block text-xs font-medium text-slate-700 mb-1"
+                    >Mô tả ngắn về nhu cầu</label
+                  >
+                  <textarea
+                    id="message"
+                    rows="4"
+                    class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:border-primary-400 focus:ring-2 focus:ring-primary-100 outline-none transition-shadow resize-none"
+                    placeholder="Ngân sách dự kiến, thời gian triển khai, ngành hàng..."
+                  ></textarea>
+                </div>
+                <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+                  <button
+                    type="submit"
+                    class="inline-flex justify-center items-center px-5 py-2.5 rounded-full bg-primary-500 text-white text-sm font-medium shadow-md shadow-primary-200 hover:bg-primary-400 transition-colors w-full sm:w-auto"
+                  >
+                    Gửi thông tin ngay
+                  </button>
+                  <p class="text-[11px] text-slate-500">
+                    Bằng cách gửi form, bạn đồng ý cho phép DOTS liên hệ tư vấn
+                    qua email / điện thoại.
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 bg-slate-50/80 py-6">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-xs sm:text-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <p class="text-slate-500">
+            ©
+            <span id="year"></span>
+            DOTS Communications & Advertising Co., Ltd. All rights reserved.
+          </p>
+          <div class="flex flex-wrap gap-4 text-slate-500">
+            <span>MSDN: 0101108116</span>
+            <span>Trụ sở: Long Biên, Hà Nội</span>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
+
+
